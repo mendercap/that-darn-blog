@@ -25,7 +25,6 @@ body {
 
 .canvas {
     display: inline-block; 
-    width:600px; 
     background-color: #fff;
     text-align: left; 
     margin-top: 0;
@@ -34,6 +33,12 @@ body {
     border-color: #505050;
     padding: 3em;
     border-radius: 2px;
+    @media all and (max-width: 640px) {
+        width: auto;
+    }
+    @media all and (min-width: 640px) {
+        width: 600px;
+    }
 }
 
 /* Set headings and links to use lowercase Equity Caps A. */
