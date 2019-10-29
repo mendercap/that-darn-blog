@@ -1,3 +1,5 @@
+url: "https://thatdarnblog.com.au"
+
 collections:
   videos:
     output: true
