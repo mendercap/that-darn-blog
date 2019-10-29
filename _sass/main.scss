@@ -1,0 +1,71 @@
+.current {
+  color: #a6a1e0;
+}
+
+body {
+    background-image:
+        radial-gradient(#f0d1f0 20%, transparent 20%), 
+        radial-gradient(#a6a1e0 20%, transparent 20%);
+    background-color: #fff;
+    background-position: 0px 0, 50px 50px;
+    background-size: 100px 100px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: "Equity";
+    color: #505050;
+}
+
+.header {
+    background-color: white;
+    margin: 0;
+    padding: 2em;
+}
+
+.canvas {
+    display: inline-block; 
+    width:600px; 
+    background-color: #fff;
+    text-align: left; 
+    margin-top: 0;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #505050;
+    padding: 3em;
+    border-radius: 2px;
+}
+
+/* Set headings and links to use lowercase Equity Caps A. */
+h1,
+h2,
+h3,
+a {
+    font-family: "Equity Small Caps";
+//    text-transform: lowercase;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* Links do not change colour after visiting and have no decoration. */
+a {
+    text-decoration: none;
+    color: #505050;
+}
+
+//On hover, links within the text content will be underlined.
+a:hover {
+    text-decoration: underline;
+}
+
+//Space out the navigation buttons.
+nav a:first-of-type {
+    margin-left: 0;
+}
+nav a {
+    margin-left: 2em;
+}
