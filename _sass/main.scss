@@ -3,12 +3,13 @@
 }
 
 body {
-    background-image:
-        radial-gradient(#f0d1f0 20%, transparent 20%), 
-        radial-gradient(#a6a1e0 20%, transparent 20%);
+    background-image: radial-gradient(#f0d1f0 8%, transparent 8%),
+    radial-gradient(#a6a1e0 8%, transparent 8%),
+    radial-gradient(#b0e0b8 8%, transparent 8%),
+    radial-gradient(#80cced 8%, transparent 8%);
     background-color: #fff;
-    background-position: 0px 0, 50px 50px;
-    background-size: 100px 100px;
+    background-position: 0 0, 100px 0px, 0px 100px, 100px 100px;
+    background-size: 200px 200px;
     width: 100%;
     text-align: center;
     padding: 0;
