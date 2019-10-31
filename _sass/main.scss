@@ -3,12 +3,17 @@
 }
 
 body {
-    background-image: radial-gradient(#f0d1f0 8%, transparent 8%),
-    radial-gradient(#a6a1e0 8%, transparent 8%),
-    radial-gradient(#b0e0b8 8%, transparent 8%),
-    radial-gradient(#80cced 8%, transparent 8%);
+    background-image: 
+        radial-gradient(#f0d1f0 8%, transparent 8%), //pink
+        radial-gradient(#a6a1e0 8%, transparent 8%), //purple
+        radial-gradient(#b0e0b8 8%, transparent 8%), //green
+        radial-gradient(#80cced 8%, transparent 8%); // blue
     background-color: #fff;
-    background-position: 0 0, 100px 0px, 0px 100px, 100px 100px;
+    background-position: 
+        0 0, 
+        100px 0px, 
+        50px 100px, 
+        150px 100px;
     background-size: 200px 200px;
     width: 100%;
     text-align: center;
