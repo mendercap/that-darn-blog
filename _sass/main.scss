@@ -132,11 +132,11 @@ body {
     border-color: #505050;
     padding: 3em;
     border-radius: 2px;
-    @media all and (max-width: 840px) {
+    @media all and (max-width: 740px) {
         width: auto;
     }
-    @media all and (min-width: 840px) {
-        width: 800px;
+    @media all and (min-width: 740px) {
+        width: 700px;
     }
 }
 
