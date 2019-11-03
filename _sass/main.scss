@@ -1,20 +1,113 @@
+$green: #b0e0b8;
+$blue: #80cced;
+$pink: #f0d1f0;
+$purple: #a6a1e0;
+$orange: #fabf78;
+$yellow: #ffff99;
+$dot-size: 3%;
+
+
 .current {
   color: #a6a1e0;
 }
 
 body {
     background-image: 
-        radial-gradient(#fabf78 8%, transparent 8%), //pink
-        radial-gradient(#a6a1e0 8%, transparent 8%), //purple
-        radial-gradient(#b0e0b8 8%, transparent 8%), //green
-        radial-gradient(#80cced 8%, transparent 8%); // blue
+        radial-gradient($pink $dot-size, transparent $dot-size),
+        radial-gradient($purple $dot-size, transparent $dot-size),
+        radial-gradient($green $dot-size, transparent $dot-size),
+        radial-gradient($blue $dot-size, transparent $dot-size),
+    
+        radial-gradient($blue $dot-size, transparent $dot-size),
+        radial-gradient($green $dot-size, transparent $dot-size),
+        radial-gradient($orange $dot-size, transparent $dot-size),
+        radial-gradient($yellow $dot-size, transparent $dot-size),
+        
+        radial-gradient($orange $dot-size, transparent $dot-size),
+        radial-gradient($yellow $dot-size, transparent $dot-size),
+        radial-gradient($purple $dot-size, transparent $dot-size),
+        radial-gradient($pink $dot-size, transparent $dot-size),
+        
+        
+        radial-gradient($orange $dot-size, transparent $dot-size),
+        radial-gradient($yellow $dot-size, transparent $dot-size),
+        radial-gradient($purple $dot-size, transparent $dot-size),
+        radial-gradient($pink $dot-size, transparent $dot-size),
+        
+        radial-gradient($purple $dot-size, transparent $dot-size),
+        radial-gradient($pink $dot-size, transparent $dot-size),
+        radial-gradient($blue $dot-size, transparent $dot-size),
+        radial-gradient($green $dot-size, transparent $dot-size),
+        
+        radial-gradient($blue $dot-size, transparent $dot-size),
+        radial-gradient($green $dot-size, transparent $dot-size),
+        radial-gradient($orange $dot-size, transparent $dot-size),
+        radial-gradient($yellow $dot-size, transparent $dot-size),
+        
+        
+        radial-gradient($blue $dot-size, transparent $dot-size),
+        radial-gradient($green $dot-size, transparent $dot-size),
+        radial-gradient($orange $dot-size, transparent $dot-size),
+        radial-gradient($yellow $dot-size, transparent $dot-size),
+        
+        radial-gradient($orange $dot-size, transparent $dot-size),
+        radial-gradient($yellow $dot-size, transparent $dot-size),
+        radial-gradient($purple $dot-size, transparent $dot-size),
+        radial-gradient($pink $dot-size, transparent $dot-size),
+        
+        radial-gradient($purple $dot-size, transparent $dot-size),
+        radial-gradient($pink $dot-size, transparent $dot-size),
+        radial-gradient($blue $dot-size, transparent $dot-size),
+        radial-gradient($green $dot-size, transparent $dot-size);
     background-color: #fff;
     background-position: 
-        0 0, 
-        100px 0px, 
-        50px 100px, 
-        150px 100px;
-    background-size: 200px 200px;
+        0 0,
+        100px 0px,
+        50px 100px,
+        150px 100px,
+    
+        200px 0,
+        300px 0px,
+        250px 100px,
+        350px 100px,
+    
+        400px 0,
+        500px 0px,
+        450px 100px,
+        550px 100px,
+    
+        
+        0 200px,
+        100px 200px,
+        50px 300px,
+        150px 300px,
+    
+        200px 200px,
+        300px 200px,
+        250px 300px,
+        350px 300px,
+    
+        400px 200px,
+        500px 200px,
+        450px 300px,
+        550px 300px,
+    
+        
+        0 400px,
+        100px 400px,
+        50px 500px,
+        150px 500px,
+    
+        200px 400px,
+        300px 400px,
+        250px 500px,
+        350px 500px,
+    
+        400px 400px,
+        500px 400px,
+        450px 500px,
+        550px 500px;
+    background-size: 600px 600px;
     width: 100%;
     text-align: center;
     padding: 0;
@@ -39,11 +132,11 @@ body {
     border-color: #505050;
     padding: 3em;
     border-radius: 2px;
-    @media all and (max-width: 640px) {
+    @media all and (max-width: 840px) {
         width: auto;
     }
-    @media all and (min-width: 640px) {
-        width: 600px;
+    @media all and (min-width: 840px) {
+        width: 800px;
     }
 }
 
@@ -79,4 +172,27 @@ nav a:first-of-type {
 }
 nav a {
     margin-left: 2em;
+}
+
+.blogroll {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.dot {
+  height: 2em;
+  width: 2em;
+  background-color: $purple;
+  border-radius: 50%;
+  display:inline-block;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin-right: 0.5em;
+}
+
+.dotcontent {
+  margin-top: 8px;
+  vertical-align: middle;
+  display: block;
 }
