@@ -4,7 +4,8 @@ $pink: #f0d1f0;
 $purple: #a6a1e0;
 $orange: #fabf78;
 $yellow: #ffff99;
-$dot-size: 3%;
+$dot-size: 2.5%;
+$dot-distance: 60px;
 
 
 .current {
@@ -61,53 +62,55 @@ body {
         radial-gradient($green $dot-size, transparent $dot-size);
     background-color: #fff;
     background-position: 
-        0 0,
-        100px 0px,
-        50px 100px,
-        150px 100px,
+        0                     0,
+        (2  * $dot-distance)  0,
+        (1  * $dot-distance)  (2  * $dot-distance),
+        (3  * $dot-distance)  (2  * $dot-distance),
+        
+        (4  * $dot-distance)  0,
+        (6  * $dot-distance)  0,
+        (5  * $dot-distance)  (2  * $dot-distance),
+        (7  * $dot-distance)  (2  * $dot-distance),
+        
+        (8  * $dot-distance)  0,
+        (10 * $dot-distance)  0,
+        (9  * $dot-distance)  (2  * $dot-distance),
+        (11 * $dot-distance)  (2  * $dot-distance),
     
-        200px 0,
-        300px 0px,
-        250px 100px,
-        350px 100px,
-    
-        400px 0,
-        500px 0px,
-        450px 100px,
-        550px 100px,
     
         
-        0 200px,
-        100px 200px,
-        50px 300px,
-        150px 300px,
-    
-        200px 200px,
-        300px 200px,
-        250px 300px,
-        350px 300px,
-    
-        400px 200px,
-        500px 200px,
-        450px 300px,
-        550px 300px,
-    
+        0                     (4  * $dot-distance),
+        (2  * $dot-distance)  (4  * $dot-distance),
+        (1  * $dot-distance)  (6  * $dot-distance),
+        (3  * $dot-distance)  (6  * $dot-distance),
         
-        0 400px,
-        100px 400px,
-        50px 500px,
-        150px 500px,
+        (4  * $dot-distance)  (4  * $dot-distance),
+        (6  * $dot-distance)  (4  * $dot-distance),
+        (5  * $dot-distance)  (6  * $dot-distance),
+        (7  * $dot-distance)  (6  * $dot-distance),
+        
+        (8  * $dot-distance)  (4  * $dot-distance),
+        (10 * $dot-distance)  (4  * $dot-distance),
+        (9  * $dot-distance)  (6  * $dot-distance),
+        (11 * $dot-distance)  (6  * $dot-distance),
+        
     
-        200px 400px,
-        300px 400px,
-        250px 500px,
-        350px 500px,
-    
-        400px 400px,
-        500px 400px,
-        450px 500px,
-        550px 500px;
-    background-size: 600px 600px;
+        0                     (8  * $dot-distance),
+        (2  * $dot-distance)  (8  * $dot-distance),
+        (1  * $dot-distance)  (10 * $dot-distance),
+        (3  * $dot-distance)  (10 * $dot-distance),
+        
+        (4  * $dot-distance)  (8  * $dot-distance),
+        (6  * $dot-distance)  (8  * $dot-distance),
+        (5  * $dot-distance)  (10 * $dot-distance),
+        (7  * $dot-distance)  (10 * $dot-distance),
+        
+        (8  * $dot-distance)  (8  * $dot-distance),
+        (10 * $dot-distance)  (8  * $dot-distance),
+        (9  * $dot-distance)  (10 * $dot-distance),
+        (11 * $dot-distance)  (10 * $dot-distance);
+
+    background-size: (12 * $dot-distance) (12 * $dot-distance);
     width: 100%;
     text-align: center;
     padding: 0;
