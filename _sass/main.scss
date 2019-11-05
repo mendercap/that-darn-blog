@@ -2,6 +2,7 @@ $green: #b0e0b8;
 $blue: #80cced;
 $pink: #f0d1f0;
 $purple: #a6a1e0;
+$purple-dark: #7d77c7;
 $orange: #fabf78;
 $yellow: #ffff99;
 $dot-size: 2.5%;
@@ -9,7 +10,7 @@ $dot-distance: 60px;
 
 
 .current {
-  color: #a6a1e0;
+  color: $purple;
 }
 
 body {
@@ -147,7 +148,8 @@ body {
 h1,
 h2,
 h3,
-a {
+a,
+input[type=submit] {
     font-family: "Equity Small Caps";
 //    text-transform: lowercase;
     font-variant: small-caps;
@@ -156,6 +158,10 @@ a {
 
 h1 {
     margin-top: 0;
+}
+
+p, li {
+    line-height: 1.7em;
 }
 
 /* Links do not change colour after visiting and have no decoration. */
@@ -198,4 +204,44 @@ nav a {
   margin-top: 8px;
   vertical-align: middle;
   display: block;
+}
+
+input[type=text], textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: $purple;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: $purple-dark;
+}
+
+
+ul {
+  list-style: none; /* Remove default bullets */
+    padding-left: 1em;
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: $purple; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
