@@ -150,6 +150,8 @@ body {
 
 .copyright {
     margin-bottom: 1em;
+    text-align: center;
+    font-size: 0.7em;
 }
 
 /* Set headings and links to use lowercase Equity Caps A. */
@@ -157,7 +159,8 @@ h1,
 h2,
 h3,
 a,
-input[type=submit] {
+input[type=submit],
+.copyright {
     font-family: "Equity Small Caps";
 //    text-transform: lowercase;
     font-variant: small-caps;
