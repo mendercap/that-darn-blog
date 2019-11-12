@@ -140,10 +140,10 @@ body {
     padding: 3em;
     border-radius: 2px;
     max-width: 700px;
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 1165px) {
         width: 60vw;
     }
-    @media only screen and (min-width: 1001px) {
+    @media only screen and (min-width: 1166px) {
         width: 700px;
     }
 }
