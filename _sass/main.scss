@@ -139,10 +139,9 @@ body {
     border-color: #505050;
     padding: 3em;
     border-radius: 2px;
-    width: 70vw;
     max-width: 700px;
     @media only screen and (max-width: 1000px) {
-        width: 70vw;
+        width: 60vw;
     }
     @media only screen and (min-width: 1001px) {
         width: 700px;
