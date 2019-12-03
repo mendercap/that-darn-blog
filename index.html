@@ -7,7 +7,7 @@ title: Home
 <ol class="blogroll">
   {% for post in site.posts %}
     <li>
-        <h2><div class="dot"><span class="dotcontent">#{{ post.number }}</span></div><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2><div class="dot" style="background-color: #{{ post.color }};"><span class="dotcontent">#{{ post.number }}</span></div><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p>{{ post.excerpt }}</p>
       <p><a href="{{ post.url }}">read more</a></p>
     </li>
