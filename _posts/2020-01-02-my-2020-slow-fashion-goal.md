@@ -24,17 +24,17 @@ Yes!
 Mended/Refashioned:
 6 items
 
-Made:
+Made:<br />
 1 pair of pants
 
-Purchased Pre-loved:
-3 dresses
-3 tops
+Purchased Pre-loved:<br />
+3 dresses<br />
+3 tops<br />
 3 skirts
 
-Purchased Brand New:
-3 pairs of stockings
-3 pairs of socks
+Purchased Brand New:<br />
+3 pairs of stockings<br />
+3 pairs of socks<br />
 1 backpack
 
 (Full disclosure here — I was also given a tshirt for Christmas.)
@@ -54,7 +54,7 @@ In 2020, I plan to:
 - Purchase pre-loved items
 - Only buy from ethical or sustainable brands
 
-Last year I found most items I needed pre-loved, but there were few items I couldn't find that I was hoping to sew. However, my need for them far outweighed my sewing speed and time, so I've given myself another option.
+Last year I found most items I needed pre-loved, but there were a few items I couldn't find that I was hoping to sew. However, my need for them far outweighed my sewing speed and time, so I've given myself another option.
 
 I'm also hoping to sew more for my little one using fabric scraps and reduce food waste in our house. I'll keep you posted on how I go.
 
