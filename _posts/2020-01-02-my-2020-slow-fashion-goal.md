@@ -21,7 +21,7 @@ Yes!
 
 **What did I actually mend, make and purchase?**
 
-Mended/Refashioned:
+Mended/Refashioned:<br />
 6 items
 
 Made:<br />
